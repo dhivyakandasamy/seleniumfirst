@@ -35,6 +35,6 @@ public class c1 {
 		ob.findElementByLinkText("Images").click();
 		File f1 = ob.getScreenshotAs(OutputType.FILE);
 		FileUtils.copyFile(f1, new File("C:\\Users\\hp\\eclipse-workspace\\6ammaven\\screenshots\\after.png"));
-		ob.quit();
+	
 	}
 }
