@@ -25,7 +25,7 @@ public class c1 {
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\hp\\Desktop\\chromedriver.exe");
 		ChromeDriver ob= new ChromeDriver();
 		ob.get("http://www.google.com");
-		System.out.println("hi");
+		
 		// get the screenshot : step 1
 		// to perform copy paste=> FileUtils => apache directory studio common io
 		// add dependency code of apache directory....   : step2 
